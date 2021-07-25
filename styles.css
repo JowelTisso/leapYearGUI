@@ -1,0 +1,59 @@
+:root {
+  --primaryColor-green: #10b981;
+  --primaryColor-gray: #9ca3af;
+  --primaryColor-blue: #60a5fa;
+}
+
+h1,
+h3 {
+  text-align: center;
+  color: var(--primaryColor-green);
+}
+
+#primaryh1 {
+  margin: 0;
+}
+
+#secondaryh2 {
+  margin-top: 0;
+  margin: 0;
+}
+
+#container {
+  padding: 1rem;
+}
+
+#intro {
+  width: 50vw;
+  margin: auto;
+}
+
+#inputText {
+  margin: auto;
+  display: block;
+  border: 1px solid var(--primaryColor-gray);
+  width: 50vw;
+  padding: 1rem;
+}
+
+#btn {
+  padding: 0.3rem;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  display: block;
+  background-color: var(--primaryColor-blue);
+  border: 1px;
+  border-radius: 3px;
+  color: white;
+}
+
+#outputText {
+  text-align: center;
+  font-size: x-large;
+  color: var(--primaryColor-green);
+  font-weight: bold;
+  width: 50vw;
+  margin: auto;
+  padding: 0.5rem;
+}
